@@ -1,1 +1,1 @@
-# В данном репозитории собраны практические задания по js из основного учебника и учебника практики
+# Practice from the main textbook and from the textbook of practice
