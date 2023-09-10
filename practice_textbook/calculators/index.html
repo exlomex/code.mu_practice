@@ -6,11 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculators</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script defer src="main.js"></script>
 </head>
 
 <body>
-    <!-- empty -->
+    <div class="wrapper">
+        <section class="calculators">
+            <div class="container">
+                <div class="calculators__inner">
+                    <div class="calculators__squareCalculator squareCalculator">
+                        <div class="squareCalculator__heading">
+                            <h2 class="squareCalculator__title">Калькулятор</h2>
+                            <p class="squareCalculator__subtitle">Вычислите площадь и периметр квадрата</p>
+                        </div>
+                        <input type='text' placeholder='Длина квадрата' class="squareCalculator__input"></input>
+                        <a class="squareCalculator__button button">Вычислить</a>
+                        <div class="squareCalculator__answer-block squareCalculator__answer-block--visible">
+                            <div class="squareCalculator__answer-text">Ответ</div>
+                            <div class="squareCalculator__answer-sArea-wrapper">
+                                <p class="squareCalculator__answer-sArea">jh</p>
+                            </div>
+                            <div class="squareCalculator__answer-pArea-wrapper">
+                                <p class="squareCalculator__answer-pArea"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 
 </html>
