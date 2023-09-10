@@ -79,7 +79,6 @@ circleButton.addEventListener('click', e => {
     if (!isNaN(radius)) {
         const circleArea = Math.round(Math.PI * radius ** 2);
         const circleLen = Math.round(2 * Math.PI * radius);
-        console.log(circleArea, circleLen)
 
         const currentHeight = circleCalculator.clientHeight;
         if (currentHeight === 217) {
@@ -97,4 +96,44 @@ circleButton.addEventListener('click', e => {
         circleForm.value = '';
 
     }
+})
+
+
+const triangleCalculator = document.querySelector(".triangleCalculator");
+const triangleButton = document.querySelector(".triangleCalculator__button");
+
+const triangleForm_a = document.querySelector(".triangleCalculator__input-a");
+const triangleForm_b = document.querySelector(".triangleCalculator__input-b");
+const triangleForm_c = document.querySelector(".triangleCalculator__input-c");
+
+const triangleAnswer = document.querySelector(".triangleCalculator__answer-block");
+const sArea_triangle = document.querySelector(".triangleCalculator__answer-sArea");
+
+triangleButton.addEventListener('click', e => {
+    const aValue = parseFloat(triangleForm_a.value)
+    const bValue = parseFloat(triangleForm_b.value)
+    const cValue = parseFloat(triangleForm_c.value)
+
+    if (!isNaN(aValue) && !isNaN(bValue) && !isNaN(cValue) && (aValue + bValue > cValue && aValue + cValue > bValue && bValue + cValue > aValue)) {
+    const half_s = (aValue + bValue + cValue) / 2;
+    const triangleArea = Math.sqrt(half_s * (half_s - aValue) * (half_s - bValue) * (half_s - cValue));
+
+    const currentHeight = triangleCalculator.clientHeight;
+    if (currentHeight === 217) {
+        triangleCalculator.style.height = currentHeight + 60 + 'px'
+    }
+
+
+    if (triangleAnswer.classList.contains('triangleCalculator__answer-block--visible')) {
+        triangleAnswer.classList.remove('triangleCalculator__answer-block--visible')
+    }
+
+    sArea_triangle.textContent = `s = ${triangleArea.toFixed(4)}`;
+
+    triangleForm_a.value = '';
+    triangleForm_b.value = '';
+    triangleForm_c.value = '';
+
+
+}
 })
