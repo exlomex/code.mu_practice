@@ -18,19 +18,59 @@
             <div class="container">
                 <div class="calculators__inner">
                     <div class="calculators__squareCalculator squareCalculator">
-                        <div class="squareCalculator__heading">
-                            <h2 class="squareCalculator__title">Калькулятор</h2>
-                            <p class="squareCalculator__subtitle">Вычислите площадь и периметр квадрата</p>
+                        <div class="squareCalculator__heading heading">
+                            <h2 class="heading__title">Калькулятор</h2>
+                            <p class="heading__subtitle">Вычислите площадь и периметр квадрата</p>
                         </div>
-                        <input type='text' placeholder='Длина квадрата' class="squareCalculator__input"></input>
+                        <input type='text' placeholder='Длина квадрата' class="squareCalculator__input input"></input>
                         <a class="squareCalculator__button button">Вычислить</a>
                         <div class="squareCalculator__answer-block squareCalculator__answer-block--visible">
                             <div class="squareCalculator__answer-text">Ответ</div>
                             <div class="squareCalculator__answer-sArea-wrapper">
-                                <p class="squareCalculator__answer-sArea">jh</p>
+                                <p class="squareCalculator__answer-sArea"></p>
                             </div>
                             <div class="squareCalculator__answer-pArea-wrapper">
                                 <p class="squareCalculator__answer-pArea"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="calculators__rectangleCalculator rectangleCalculator">
+                        <div class="rectangleCalculator__heading heading">
+                            <h2 class="heading__title">Калькулятор</h2>
+                            <p class="heading__subtitle">Вычислите площадь и периметр прямоугольника</p>
+                        </div>
+                        <div class="rectangleCalculator__input-wrapper">
+                            <input type='text' placeholder='Длина' class="rectangleCalculator__input-len input"></input>
+                            <input type='text' placeholder='Ширина'
+                                class="rectangleCalculator__input-width input"></input>
+                        </div>
+                        <a class="rectangleCalculator__button button">Вычислить</a>
+                        <div class="rectangleCalculator__answer-block rectangleCalculator__answer-block--visible">
+                            <div class="rectangleCalculator__answer-text">Ответ</div>
+                            <div class="rectangleCalculator__answer-sArea-wrapper">
+                                <p class="rectangleCalculator__answer-sArea"></p>
+                            </div>
+                            <div class="rectangleCalculator__answer-pArea-wrapper">
+                                <p class="rectangleCalculator__answer-pArea"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="calculators__circleCalculator circleCalculator">
+                        <div class="circleCalculator__heading heading">
+                            <h2 class="heading__title">Калькулятор</h2>
+                            <p class="heading__subtitle">Вычислите площадь круга и длину окружности</p>
+                        </div>
+                        <input type='text' placeholder='Радиус' class="circleCalculator__input input"></input>
+                        <a class="circleCalculator__button button">Вычислить</a>
+                        <div class="circleCalculator__answer-block circleCalculator__answer-block--visible">
+                            <div class="circleCalculator__answer-text">Ответ</div>
+                            <div class="circleCalculator__answer-sArea-wrapper">
+                                <p class="circleCalculator__answer-sArea"></p>
+                            </div>
+                            <div class="circleCalculator__answer-cArea-wrapper">
+                                <p class="circleCalculator__answer-cArea"></p>
                             </div>
                         </div>
                     </div>
