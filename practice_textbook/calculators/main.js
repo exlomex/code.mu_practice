@@ -1,5 +1,6 @@
 "use strict"
 
+// Площадь и периметр квадрата
 const squareCalculator = document.querySelector(".squareCalculator");
 const squareButton = document.querySelector(".squareCalculator__button");
 const squareForm = document.querySelector(".squareCalculator__input");
@@ -29,6 +30,9 @@ squareButton.addEventListener('click', e => {
     }
 })
 
+
+
+// Площадь и периметр прямоугольника
 const rectangleCalculator = document.querySelector(".rectangleCalculator");
 const rectangleButton = document.querySelector(".rectangleCalculator__button");
 
@@ -65,6 +69,9 @@ rectangleButton.addEventListener('click', e => {
     }
 })
 
+
+
+// Площадь круга и длину окружности
 const circleCalculator = document.querySelector(".circleCalculator");
 const circleButton = document.querySelector(".circleCalculator__button");
 
@@ -99,6 +106,8 @@ circleButton.addEventListener('click', e => {
 })
 
 
+
+// Площадь треугольника
 const triangleCalculator = document.querySelector(".triangleCalculator");
 const triangleButton = document.querySelector(".triangleCalculator__button");
 
