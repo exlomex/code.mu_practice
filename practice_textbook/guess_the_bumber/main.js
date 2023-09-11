@@ -7,7 +7,7 @@ const answer_block = document.querySelector('.game__answer-main');
 
 // random value
 const randomValue = Math.floor(Math.random() * 100) + 1
-console.log(randomValue)
+
 button.addEventListener('click', e => {
     const a = parseFloat(input_1.value);
 
