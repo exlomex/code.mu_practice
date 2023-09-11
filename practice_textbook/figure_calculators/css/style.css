@@ -310,14 +310,17 @@ ul li {
     opacity: 1;
     transition: opacity .2s ease;
 }
+
 .triangleCalculator__answer-block--visible {
     visibility: hidden;
     opacity: 0;
 }
+
 .triangleCalculator__answer-text {
     font-size: 0.875em;
     font-weight: 500;
 }
+
 .triangleCalculator__answer-sArea-wrapper {
     width: 344px;
     height: 33px;
@@ -325,6 +328,7 @@ ul li {
     background: #F3F3F3;
     padding: 10px 13px 8px;
 }
+
 .triangleCalculator__answer-sArea {
     font-size: 0.875em;
     font-weight: 500;

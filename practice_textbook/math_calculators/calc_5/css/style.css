@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+:root {
+    background-color: #ECECEC;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    --main-color: #313131;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+}
+
+.container {
+    padding: 30px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+/* --------------------------------- */
+
+
+
+.calculators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.triple-calculator {
+    width: 700px;
+    height: 177px;
+    border-radius: 40px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.triple-calculator__heading {}
+
+.heading {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.heading h2 {
+    font-size: 1.25em;
+}
+
+.triple-calculator__input-wrapper {
+    display: flex;
+    gap: 0 17px;
+}
+
+.triple-calculator__input {
+    width: 295px;
+    height: 33px;
+    border-radius: 5px;
+    background: #F3F3F3;
+    text-indent: 10px;
+}
+
+.triple-calculator__input:focus {
+    outline: 1px solid #bdbdbd;
+}
+
+.triple-calculator__input::placeholder {
+    color: #000;
+    font-size: 0.875em;
+    font-weight: 400;
+    opacity: 0.4;
+}
+
+.triple-calculator__footer-wrapper {
+    width: 604px;
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.button {
+    border-radius: 49px;
+    background: linear-gradient(100deg, #CB2A2A -28.1%, #DE684F 81.89%);
+    background-size: 200% 100%;
+    color: #FFF;
+    font-size: 0.875em;
+    font-weight: 400;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 56px;
+    transition: background-position .4s ease;
+}
+
+.button:hover {
+    background-position: 95% 0;
+}
+
+.triple-calculator__answer-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.triple-calculator__answer-text {
+    font-size: 0.875em;
+    font-weight: 500;
+    margin-right: 12px;
+}
+
+.triple-calculator__answer-block {
+    width: 348px;
+    height: 33px;
+    border-radius: 5px;
+    background: #F3F3F3;
+}
+
+.triple-calculator__answer-main {
+    font-size: 0.875em;
+    font-weight: 500;
+    padding: 9px 13px 8px;
+}
