@@ -1,0 +1,22 @@
+* {
+    margin-right: 10px;
+}
+
+span {
+    font-size: 1.1em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+    font-size: 1.1em;
+}
+
+a:hover {
+    color: rgb(9, 189, 48);
+}
+
+.line-through {
+    text-decoration: line-through;
+}
