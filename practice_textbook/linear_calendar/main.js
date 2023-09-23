@@ -26,6 +26,7 @@ function updateCalendar(delta = 0) {
     ul.classList.add('calendar')
 
     const lastDayOfMonth = new Date(curYear, curMonth + 1 + delta, 0);
+    
     const nameOfMonth = lastDayOfMonth.getMonth()
     const yearOfMonth = lastDayOfMonth.getFullYear()
     const countDaysOfMonth = lastDayOfMonth.getDate();
