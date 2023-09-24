@@ -1,0 +1,15 @@
+.wrapper {
+    padding-left: 14px;
+
+}
+
+.spoiler:not(.active) {
+	display: none;
+}
+
+.spoiler {
+    background-color: #d4d4d4;
+    border-radius: 10px;
+    display: inline;
+    padding: 3px 7px;
+}
