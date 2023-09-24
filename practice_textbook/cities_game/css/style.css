@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ebe8e6;
+}
+
+.wrapper {
+    min-height: 100%;
+    max-width: 1600px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    margin-bottom: 15px;
+}
+
+.input {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.input:focus {
+    outline: 1px solid #3f3f3f;
+
+}
+
+.text {
+    color: rgb(233, 57, 26);
+}
