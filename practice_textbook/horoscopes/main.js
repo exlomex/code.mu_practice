@@ -1,3 +1,5 @@
+"use strict"
+
 const horoscopes = {
     today: {
         Овен: "Гороскоп для Овна на сегодня...",
