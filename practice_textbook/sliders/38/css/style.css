@@ -1,0 +1,15 @@
+.wrapper {
+    padding: 20px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a {
+    font-size: 1.3em;
+}
+
+
+/* #slider {
+    display: inline-block;
+} */

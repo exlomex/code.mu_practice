@@ -1,0 +1,25 @@
+.wrapper {
+    padding: 20px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a {
+    font-size: 1.5em;
+}
+
+
+#slider {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#right {
+    margin-left: 20px;
+}
+
+img {
+    display: none;
+}
