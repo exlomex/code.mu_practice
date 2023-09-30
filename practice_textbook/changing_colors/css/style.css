@@ -1,0 +1,41 @@
+#field td {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	text-align: center;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.red {
+	background: red;
+}
+.red:hover {
+    background: rgb(160, 59, 59);
+}
+
+.green {
+	background: green;
+}
+.green:hover {
+    background: rgb(21, 119, 21);
+}
+
+.blue {
+	background: blue;
+}
+.blue:hover {
+    background: rgb(63, 63, 204);
+}
+
+p {
+    font-family: sans-serif;
+}
