@@ -11,7 +11,7 @@ function start(cells) {
             i++
 
             if (isVictory(cells)) {
-                alert('имя победителя');
+                alert(`Победил ${['x', 'o'][(i - 1) % 2]}`);
             } else if (i === 9) {
                 alert('Ничья')
             }
